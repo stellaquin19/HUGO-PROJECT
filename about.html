@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre HUGO</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+        .font-luckiest {
+            font-family: 'Luckiest Guy', cursive;
+        }
+
+        .luckiest-guy-regular {
+            font-family: "Mulish", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+        }
+
+
+        .clip-diagonal {
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+
+        .scroll-animation {
+            animation: scrollRight linear 40s infinite;
+        }
+
+        @keyframes scrollRight {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+    </style>
+
+</head>
+
+<body class="bg-gradient-to-br from-amber-50 via-yellow-50 to-orange-50">
+    <header class="bg-orange-50 font-sans text-orange-900 ">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center">
+                <img src="assets/logo.webp" alt="hugo logo" class="h-15 rounded-full p-2 ml-11 mr-4">
+                <a href="#" class="text-2xl font-luckiest font-medium">HUGO</a>
+            </div>
+            <div class="flex items-center justify-between space-x-8 mr-12">
+                <a href="/about.html"
+                    class="transition-all duration-400 hover:font-medium p-1 hover:border-b-2  hover:text-orange-600 ">Sobre
+                    nosotros</a>
+                <a href=""
+                    class="transition-all duration-400 hover:font-medium p-1 hover:border-b-2  hover:text-orange-600 ">Nuestras
+                    acciones</a>
+                <a href=""
+                    class="transition-all duration-400 hover:font-medium p-1 hover:border-b-2  hover:text-orange-600 ">Sé
+                    voluntario</a>
+                <a href=""
+                    class="transition-all duration-400 hover:font-medium p-1 hover:border-b-2  hover:text-orange-600 ">Contacto</a>
+            </div>
+        </div>
+    </header>
+    <header class="w-full h-50 bg-orange-50 h-50 flex items-center justify-center">
+        <h1 class="text-orange-600 font-luckiest text-5xl ">Sobre HUGO</h1>
+    </header>
+
+    <!-- divider section 1 
+    <div class="flex lg:w-1/2">
+        <div class="w-60 h-120 bg-orange-400 rounded-b-full"></div>
+        <div class="w-60 h-100 bg-orange-400 rounded-b-full"></div>
+        <div class="w-60 h-110 bg-orange-400 rounded-b-full"></div>
+        <div class="w-60 h-120 bg-orange-400 rounded-b-full"></div>
+        <div class="w-60 h-100 bg-orange-400 rounded-b-full"></div>
+        <div class="w-60 h-110 bg-orange-400 rounded-b-full"></div>
+    </div> -->
+
+    <section class="bg-amber-500 relative clip-diagonal">
+        <img src="assets/mexico.png" alt="" class="h-40 lg:h-70 opacity-30 absolute inset-0 z-0">
+        <div class="relative z-10 grid grid-cols-1 lg:grid-cols-2 px-10 py-30 gap-10 ">
+
+            <div class="text-center lg:text-end text-lg flex items-center justify-center">
+                <p class="lg:ml-20 luckiest-guy-regular"><b>HUGO</b> significa Hogar Unido Generando
+                    Oncoesperanza.
+                    Es una organización mexicana fundada por <b>Karla</b>, una joven de 16 años del Estado de México,
+                    HUGO
+                    nace como un proyecto social comprometido con la concientización, la prevención y la detección
+                    temprana del cáncer, además de brindar información, apoyo emocional y acompañamiento tanto a
+                    pacientes como a
+                    sus familias.</p>
+            </div>
+            <div class="flex items-center justify-center">
+                <img src="assets/514844176_1488656872541771_4438201514456316511_n.jpg" alt=""
+                    class="rounded-full object-cover h-auto lg:h-80 shadow-2xl/60 shadow-yellow-200 ">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="grid md:grid-cols-2 gap-8 px-10 md:pr-25 py-16">
+        <div class="flex items-center justify-center">
+            <img src="assets/sobre_nosotros-img.png" alt="" class="hidden md:flex">
+        </div>
+        <div class="flex items-center justify-center">
+            <p class="text-lg text-start ">Somos una comunidad conformada en su mayoría por
+                mujeres jóvenes, voluntarias y voluntarios de <b>17 países en Latinoamérica</b>, que buscan generar un
+                impacto real a través del amor, la empatía y la acción social.
+                En HUGO creemos que la esperanza se construye todos los días, y por eso cada persona que forma parte de
+                esta iniciativa se convierte en un puente de ayuda, escucha y transformación.</p>
+        </div>
+    </section>
+
+    <!-- estadisticas -->
+    <section class="grid grid-cols-2 lg:grid-cols-4 gap-10 p-10 lg:p-20 lg:pb-40 text-lg">
+        <div class="bg-white rounded-xl text-center py-7 shadow-xl">
+            <h1 class="text-amber-500 font-bold text-2xl">+ 500</h1>
+            <p>Voluntarios</p>
+        </div>
+        <div class="bg-white rounded-xl text-center py-7 shadow-xl">
+            <h1 class="text-amber-500 font-bold text-2xl">16</h1>
+            <p>Países</p>
+        </div>
+        <div class="bg-white rounded-xl text-center py-7 shadow-xl">
+            <h1 class="text-amber-500 font-bold text-2xl">+ 20</h1>
+            <p>Actividades</p>
+        </div>
+        <div class="bg-white rounded-xl text-center py-7 shadow-xl">
+            <h1 class="text-amber-500 font-bold text-2xl">+ 4.5k</h1>
+            <p>Seguidores</p>
+        </div>
+    </section>
+
+    <div class="flex">
+        <div class="w-60 h-20 bg-yellow-200 rounded-t-full"></div>
+        <div class="w-60 h-20 bg-yellow-200 rounded-t-full"></div>
+        <div class="w-60 h-20 bg-yellow-200 rounded-t-full"></div>
+        <div class="w-60 h-20 bg-yellow-200 rounded-t-full"></div>
+        <div class="w-60 h-20 bg-yellow-200 rounded-t-full"></div>
+        <div class="w-60 h-20 bg-yellow-200 rounded-t-full"></div>
+    </div>
+
+    <!-- documental y testimonios -->
+    <section class="relative bg-yellow-200 overflow-x-hidden overflow-y-hidden">
+
+        <h1 class="text-center text-xl lg:text-3xl text-orange-950  lg:pt-20 font-bold">¡Conoce más mirando nuestro
+            documental!</h1>
+        <img src="assets/muñe.webp" alt="" class="w-56 rotate-90 scale-x-[-1] absolute top-25 left-0 hidden lg:block">
+        <img src="assets/muñe.webp" alt="" class="w-70 absolute -right-20 bottom-8 -rotate-18 hidden lg:block">
+
+        <div class="flex items-center justify-center p-5 lg:py-20 rounded-3xl">
+            <iframe src="https://drive.google.com/file/d/1oAV9WGB0Aeuuoo_28Ekg39V2SwXxL9FZ/preview" width="640"
+                height="390" allow="autoplay"
+                class="rounded-3xl lg:shadow-2xl lg:shadow-yellow-900 h-54 lg:h-90"></iframe>
+        </div>
+    </section>
+
+    <!-- <div class="h-16 bg-gradient-to-b from-amber-700 to-orange-50"></div> -->
+
+    <div class="flex">
+        <div class="w-60 h-20 bg-yellow-200 rounded-b-full"></div>
+        <div class="w-60 h-20 bg-yellow-200 rounded-b-full"></div>
+        <div class="w-60 h-20 bg-yellow-200 rounded-b-full"></div>
+        <div class="w-60 h-20 bg-yellow-200 rounded-b-full"></div>
+        <div class="w-60 h-20 bg-yellow-200 rounded-b-full"></div>
+        <div class="w-60 h-20 bg-yellow-200 rounded-b-full"></div>
+    </div>
+
+    <!-- testimonios scroll-animation-->
+    <section class="luckiest-guy-regular">
+        <h1 class="text-center">Conoce la experiencia de nuestros voluntarios</h1>
+
+        <div class="overflow-x-auto ">
+
+            <div class="scroll-animation flex items-center gap-6">
+                <div class=" bg-white rounded-3xl p-6 shadow-xl mr-8 w-1/4 flex-shrink-0">
+                    <div class="flex pb-4">
+                        <div><img src="assets/mexicobandera.png" alt="" class=" h-10 "></div>
+
+                        <div class="pl-3">
+                            <h1 class="w-full leading-tight text-lg font-semibold">Sofía Serafín</h1>
+                            <p class="text-sm">México</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm">Estar en HUGO me ayudó a ponerme en el lugar de quienes lo viven, a desarrollar
+                        una
+                        mayor empatía y
+                        sensibilidad, y a valorar la importancia de la prevención. Gracias a esta experiencia, hoy me
+                        siento
+                        más consciente, más humana y con un fuerte compromiso de aportar algo positivo a mi comunidad
+                    </p>
+                </div>
+
+                <div class=" bg-white rounded-3xl p-6 shadow-xl mr-8 w-1/4 flex-shrink-0">
+                    <div class="flex pb-4">
+                        <div><img src="assets/republicadomi.png" alt="" class=" h-10 "></div>
+
+                        <div class="pl-3">
+                            <h1 class="w-full leading-tight text-lg font-semibold">Yelianny Rivera</h1>
+                            <p class="text-sm">República Dominicana</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm">HUGO es más que una organización, es un espacio lleno de empatía, una red de
+                        jóvenes
+                        que buscan darle visibilidad a una causa común y un hogar virtual para aquellos que lo
+                        necesitan. Me
+                        siento profundamente honrada de poder decir que soy parte de esta bella comunidad y espero que
+                        cada
+                        persona que se una pueda expresar el mismo testimonio.</p>
+                </div>
+
+                <div class=" bg-white rounded-3xl p-6 shadow-xl mr-8 w-1/4 flex-shrink-0">
+                    <div class="flex pb-4">
+                        <div><img src="assets/colombia.png" alt="" class=" h-10 "></div>
+
+                        <div class="pl-3">
+                            <h1 class="w-full leading-tight text-lg font-semibold">Neyi Pineda</h1>
+                            <p class="text-sm">Colombia</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm">HUGO ha sido una oportunidad muy especial para mí, porque me ha permitido aportar
+                        desde mis habilidades y al mismo tiempo aprender. En HUGO se conecta con las personas desde la
+                        empatía, informando y acompañando en un tema tan delicado como el cáncer. El impacto en la
+                        comunidad
+                        es muy valioso, porque se informa desde el cuidado y el amor, haciéndote sentir cómodo mientras
+                        aprendes sobre temas importantes.</p>
+                </div>
+
+                <div class="bg-white rounded-3xl p-6 shadow-xl mr-8 w-1/4 flex-shrink-0">
+                    <div class="flex pb-4">
+                        <div><img src="assets/nicaragua.png" alt="" class=" h-10 "></div>
+
+                        <div class="pl-3">
+                            <h1 class="w-full leading-tight text-lg font-semibold">Nohemy Romero</h1>
+                            <p class="text-sm">Nicaragua</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm">HUGO a sido una experiencia maravillosa, ademas de la hermosa comunidad que hemos sido hemos aportado con lo que podemos para ayudar a otros, y no solo para ayudar a los demás, si no también ayudarnos a nosostros mismos. Hugo brinda información, confianza y amor, gracias a la comunidad y sobre todo a Karla, su trabajo duro, paciencia y valentía nos a motivado a todos nosotros para seguir adelante y luchar.   
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-3xl p-6 shadow-xl mr-8 w-1/4 flex-shrink-0">
+                    <div class="flex pb-4">
+                        <div><img src="assets/honduras.png" alt="" class=" h-10 "></div>
+
+                        <div class="pl-3">
+                            <h1 class="w-full leading-tight text-lg font-semibold">Aylin Martínez</h1>
+                            <p class="text-sm">Honduras</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm">He tenido la oportunidad de psicoeducar, acompañar y generar conciencia, pero
+                        también
+                        de conectar, compartir y aprender junto a jóvenes latinoamericanos que creen en el poder de
+                        transformar vidas.
+                        HUGO es más que una organización: es una red de apoyo y esperanza, que une compasión y acción
+                        para
+                        generar un impacto real en la lucha contra el cáncer.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-3xl p-6 shadow-xl mr-8 w-1/4 flex-shrink-0">
+                    <div class="flex pb-4">
+                        <div><img src="assets/costa-rica.png" alt="" class=" h-10 "></div>
+
+                        <div class="pl-3">
+                            <h1 class="w-full leading-tight text-lg font-semibold">Mariana Acosta</h1>
+                            <p class="text-sm">Costa Rica</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm">Para mí HUGO ha sido una oportunidad para, no solo ayudar, 
+                        si no también a aprender y compartir con personas con mis propios intereses. El hecho de 
+                        que sea una comunidad llena de personas de muchos países de latinoamérica demuestra como la misión de ayudar
+                         y acompañar es trascendental a esa barrera nacional ! Me parece que el impacto que tiene en la sociedad es 
+                         necesario hoy en día, ya que da el espacio de educación sobre diferentes temas, junto con el acompañamiento 
+                         y el servicio a cualquier persona que lo necesite desde un lado más accesible. Ser parte es una experiencia 
+                         única y ver como la comunidad crece y se expande es igual de emocionante !
+
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-3xl p-6 shadow-xl mr-8 w-1/3 flex-shrink-0">
+                    <div class="flex pb-4">
+                        <div><img src="assets/ecuador.png" alt="" class="h-10"></div>
+
+                        <div class="pl-3">
+                            <h1 class="w-full leading-tight text-lg font-semibold">Ana Gómez</h1>
+                            <p class="text-sm">Ecuador</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm">Unirme a HUGO ha sido una de las experiencias más enriquecedoras y humanas de mi vida. 
+                        Más allá de mi formación como ingeniera en Biotecnología y mi trabajo en investigación biomédica, sentí 
+                        la necesidad de aportar desde un lugar más sensible y cercano: acompañar. HUGO me brindó el espacio perfecto 
+                        para hacerlo. No solo es una organización sin fines de lucro comprometida con causas como el cáncer, sino también 
+                        una comunidad que educa, sensibiliza y transforma. Gracias a sus charlas, iniciativas en redes sociales y constante 
+                        apoyo emocional y médico, he aprendido muchísimo y he visto cómo la información puede llegar a quienes más la necesitan. 
+                        Inspirada por esto, fundé el Club ALMA: un espacio literario para compartir, sanar y reflexionar a través de historias que nos 
+                        conectan con la experiencia del cáncer, la pérdida y la resiliencia.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-3xl p-6 shadow-xl mr-8 w-1/3 flex-shrink-0">
+                    <div class="flex pb-4">
+                        <div><img src="assets/venezuela.png" alt="" class=" h-10 "></div>
+
+                        <div class="pl-3">
+                            <h1 class="w-full leading-tight text-lg font-semibold">Barbara Delgado</h1>
+                            <p class="text-sm">Venezuela</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm">HUGO me ha permitido crear, formar y transformar desde el amor, perspectivas únicas que me han hecho impactar 
+                        positivamente en mí a través de los demás. Me apasiona ayudar, y entregarle una parte de mi al mundo. Desde lo personal hasta 
+                        lo comunitario, más allá de una pasión, ha sido mi compromiso con un mundo lleno de amor, unión y luz. Ser voluntaria ha sido 
+                        crear a través de la acción, una perspectiva diferente de todo lo hermoso que nos rodea y que a veces, no somos capaces de ver. 
+                         HUGO ha sido un hogar, puente y punto de partida para cambiar vidas, partiendo de experiencias personales, vivencias y el foco 
+                         de luz que muchos tenemos y a veces no sabemos cómo emprender y llevar a cabo.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-3xl p-6 shadow-xl mr-8 w-1/4 flex-shrink-0">
+                    <div class="flex pb-4">
+                        <div><img src="assets/guatemala.png" alt="" class=" h-10 "></div>
+
+                        <div class="pl-3">
+                            <h1 class="w-full leading-tight text-lg font-semibold">Josué Mó</h1>
+                            <p class="text-sm">Guatemala</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm">HUGO ha sido para mi una fuente confiable de información, herramientas y apoyo. A través de sus redes, 
+                        he encontrado contenido claro y humano sobre el cáncer, que no solo educa, sino también acompaña familias en esta lucha. Creo que su impacto es enorme, porque logra llevar mensajes de esperanza y conocimiento a muchas personas.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-3xl p-6 shadow-xl mr-8 w-1/4 flex-shrink-0">
+                    <div class="flex pb-4">
+                        <div><img src="assets/el-salvador.png" alt="" class=" h-10 "></div>
+
+                        <div class="pl-3">
+                            <h1 class="w-full leading-tight text-lg font-semibold">Michelle Quezada</h1>
+                            <p class="text-sm">El Salvador</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm">Ser voluntaria en HUGO me ha permitido transformar mi compromiso en acción. A través de los proyectos 
+                        de prevención y apoyo a pacientes he visto de primera mano cómo la organización no solo acompaña cada proceso de 
+                        manera integral, sino que también crea esperanza y comunidad. Para mí, HUGO significa empatía hecha acción, y creo 
+                        que su impacto en los demás radica en devolver confianza, fuerza y motivación a quienes más lo necesitan.
+
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-3xl p-6 shadow-xl mr-8 w-1/4 flex-shrink-0">
+                    <div class="flex pb-4">
+                        <div><img src="assets/paraguay.png" alt="" class=" h-10 "></div>
+
+                        <div class="pl-3">
+                            <h1 class="w-full leading-tight text-lg font-semibold">Luz Morel</h1>
+                            <p class="text-sm">Paraguay</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm">HUGO ha tenido un impacto significativo en mi vida permitiendo crecer cómo persona y desarrollar habilidades para apoyar a otros. Cada recurso que comparten es invaluable y se nota en cada acción que realizan, sin duda la organización es un ejemplo de cómo podemos hacer una diferencia en la vida de las personas y en la comunidad de manera muy cercana y por sobre todo, humana.
+
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-3xl p-6 shadow-xl mr-8 w-1/4 flex-shrink-0">
+                    <div class="flex pb-4">
+                        <div><img src="assets/chile.png" alt="" class=" h-10 "></div>
+
+                        <div class="pl-3">
+                            <h1 class="w-full leading-tight text-lg font-semibold">Maira Rosas</h1>
+                            <p class="text-sm">Chile</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm">Ha sido un espacio muy único para mí. He aprendido mucho más sobre el cáncer, sobre las personas que lo viven, y también me ha ayudado a crear una conexión 
+                    diferente con quienes están pasando por este proceso y con sus familiares. Además, dentro de Hugo he conocido gente muy fantástica, personas simpáticas que me han traído mucha alegría y han hecho que la experiencia sea aún más especial
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-3xl p-6 shadow-xl mr-8 w-1/4 flex-shrink-0">
+                    <div class="flex pb-4">
+                        <div><img src="assets/peru.png" alt="" class=" h-10 "></div>
+
+                        <div class="pl-3">
+                            <h1 class="w-full leading-tight text-lg font-semibold">Jhazmin Pastor</h1>
+                            <p class="text-sm">Perú</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm">HUGO me ha permitido conocer de cerca la historia de las personas que atraviesan por un proceso oncológico. 
+                        Para mí, es más que una organización, pues cada voluntario aporta ideas y acciones que fortalecen  la comunidad. Gracias al 
+                        compromiso de los diversos equipos, he visto cómo se diseñan elementos de apoyo, talleres, capacitaciones y recursos útiles 
+                        que hacen la diferencia en el día a día de quienes buscan información sobre el cáncer y contención emocional. 
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-3xl p-6 shadow-xl mr-8 w-1/4 flex-shrink-0">
+                    <div class="flex pb-4">
+                        <div><img src="assets/bolivia.png" alt="" class=" h-10 "></div>
+
+                        <div class="pl-3">
+                            <h1 class="w-full leading-tight text-lg font-semibold">María José Varga</h1>
+                            <p class="text-sm">Bolivia</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm">HUGO para mí es un espacio de crecimiento personal y profesional, incluso estando a la distancia. A través de 
+                        sus actividades he podido compartir, aprender y sentirme parte de una comunidad comprometida y más humana. Lo que más destaco 
+                        es la importancia que se le da a acompañar a las personas desde la empatía, brindando información, construyendo espacios solidarios
+                         y demuestra que, el impactó que genera HUGO inspira a seguir aportando algo positivo a los demás, acompañando, motivando y 
+                         brindando apoyo emocional.
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

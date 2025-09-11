@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUGO</title>
+    <link rel="icon" type="image/png" href="assets/logo.webp">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+        .font-luckiest {
+            font-family: 'Luckiest Guy', cursive;
+        }
+
+        @keyframes scrollRight {
+            0% {
+                transform: translateX(-100%);
+            }
+
+            100% {
+                transform: translateX(cal(50vw + 100vw));
+            }
+        }
+
+        .scroll-animation {
+            animation: scrollRight 18s linear infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-orange-50 font-sans text-orange-900 ">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center">
+                <img src="assets/logo.webp" alt="hugo logo" class="h-15 rounded-full p-2 ml-11 mr-4">
+                <a href="#" class="text-2xl font-luckiest font-medium">HUGO</a>
+            </div>
+            <div class="flex items-center justify-between space-x-8 mr-12">
+                <a href="/about.html"
+                    class="transition-all duration-400 hover:font-medium p-1 hover:border-b-2  hover:text-orange-600 ">Sobre
+                    nosotros</a>
+                <a href=""
+                    class="transition-all duration-400 hover:font-medium p-1 hover:border-b-2  hover:text-orange-600 ">Nuestras
+                    acciones</a>
+                <a href=""
+                    class="transition-all duration-400 hover:font-medium p-1 hover:border-b-2  hover:text-orange-600 ">Sé
+                    voluntario</a>
+                <a href=""
+                    class="transition-all duration-400 hover:font-medium p-1 hover:border-b-2  hover:text-orange-600 ">Contacto</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- section 1 -->
+        <section class="h-screen bg-gradient-to-tl from-yellow-100 via-yellow-200 to-white">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row items-center justify-between grap-8">
+                    <div class="md:w-1/2 text-orange-950 text-center md:text-left ml-16">
+                        <h1
+                            class="font-luckiest font-medium text-2xl lg:text-4xl mb-14 mt-12 bg-gradient-to-r from-orange-900 to-orange-700 bg-clip-text text-transparent">
+                            Juntos podemos prevenir el cáncer 🎗️</h1>
+                        <p class="text-xl mb-7 ">Somos una organización sin ánimo de lucro comprometida con la
+                            transformación social y la prevención del cáncer a través de la educación, el apoyo
+                            comunitario y la acción directa</p>
+
+                        <div class="w-2/3 mx-3 overflow-hidden">
+                            <div class="scroll-animation flex items-center ">
+                                <img src="assets/cinta (1).png" alt="" class="h-16">
+                                <img src="assets/cinta (2).png" alt="" class="h-16">
+                                <img src="assets/cinta (3).png" alt="" class="h-16">
+                                <img src="assets/cinta (4).png" alt="" class="h-16">
+                                <img src="assets/cinta (5).png" alt="" class="h-16">
+                                <img src="assets/cinta (6).png" alt="" class="h-16">
+                                <img src="assets/cinta (7).png" alt="" class="h-16">
+                                <img src="assets/cinta.png" alt="" class="h-16">
+                                <img src="assets/10.png" alt="" class="h-16">
+                            </div>
+                        </div>
+
+                        <img src="assets/svg/flecha3.svg" alt="d" class="size-16 animate-bounce mt-15">
+                    </div>
+                    <div class="w-4/12 mr-12 mb-12 mt-12">
+                        <img src="assets/muñe.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- section 1 divisor -->
+        <div class="flex">
+            <div class="w-60 h-20 bg-yellow-200 rounded-b-full"></div>
+            <div class="w-60 h-20 bg-orange-200 rounded-b-full"></div>
+            <div class="w-60 h-20 bg-green-200 rounded-b-full"></div>
+            <div class="w-60 h-20 bg-red-100 rounded-b-full"></div>
+            <div class="w-60 h-20 bg-blue-100 rounded-b-full"></div>
+            <div class="w-60 h-20 bg-fuchsia-300 rounded-b-full"></div>
+        </div>
+
+        <!-- section 2 cards -->
+        <section>
+            <div
+                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-20 py-30 items-center text-center text-orange-950">
+                <div
+                    class="bg-gradient-to-tl from-yellow-50 to-yellow-100 px-5 py-5 border border-gray-200 rounded-xl shadow-md hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 ease-linear">
+                    <a href="">
+                        <h1 class="m-4 font-medium text-yellow-900"> 🌞 Conócenos</h1>
+                        <p class="mb-4">Conoce nuestra historia, el equipo increíble de voluntarios y lo que hacemos</p>
+                    </a>
+                </div>
+
+                <div
+                    class="bg-gradient-to-tl from-green-50 to-green-100  px-5 py-5 border border-gray-200 rounded-xl shadow-md hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 ease-linear ">
+                    <a href="">
+                        <h1 class="m-4 font-medium text-lime-900"> 📗 Testimonios</h1>
+                        <p class="mb-4">Conoce nuestra historia, el equipo increíble de voluntarios y lo que hacemos</p>
+                    </a>
+                </div>
+
+                <div
+                    class=" bg-gradient-to-tl from-indigo-50 to-indigo-100  px-5 py-5 border border-gray-200 rounded-xl shadow-md hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 ease-linear ">
+                    <a href="">
+                        <h1 class="m-4 font-medium text-indigo-900"> 🫂 Únete</h1>
+                        <p class="mb-4">Sé parte del cambio con nuestra comunidad de voluntarios o participando en
+                            iniciativas y ayuda a trasformar vida</p>
+                    </a>
+                </div>
+
+                <div
+                    class=" bg-gradient-to-tl from-orange-50 to-orange-100 py-5 border border-gray-200 rounded-xl shadow-md hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 ease-linear flex flex-col items-center">
+                    <h1 class="m-4 font-medium text-orange-900"> 🔗 Síguenos</h1>
+                    <div
+                        class="grid grid-cols-2 grid-rows-2 place-items-center size-26 border border-gray-800 rounded-xl px-1 py-1">
+                        <a href="https://www.instagram.com/ofhugomx/" class="m-2"><img src="assets/svg/instagram.svg"
+                                alt=""></a>
+                        <a href="mailto:onghugoff@gmail.com" class="m-2 size-10"><img src="assets/svg/gmail.svg" alt=""
+                                title="onghugoff@gmail.com"></a>
+                        <a href="https://www.tiktok.com/@ofhugomx?_t=ZM-8tmgbmSoYje&_r=1" class="m-2"><img
+                                src="assets/svg/tikok.svg" alt=""></a>
+                        <a href="" class="m-2" title="+52 5643 412263"><img src="assets/svg/whatsApp.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section divisor -->
+        <div class="h-16 bg-gradient-to-b from-white to-green-50 relative overflow-hidden">
+            <!-- Partículas flotantes -->
+            <div class="absolute inset-0 flex justify-center items-center space-x-12 opacity-40">
+                <div class="w-2 h-2 bg-yellow-400 rounded-full float-element"></div>
+                <div class="w-3 h-3 bg-orange-400 rounded-full float-element" style="animation-delay: 1s;"></div>
+                <div class="w-2 h-2 bg-red-400 rounded-full float-element" style="animation-delay: 2s;"></div>
+            </div>
+        </div>
+
+        <!-- section 3 video -->
+        <section class="bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 grid grid-cols-1 lg:grid-cols-2 lg:pr-20">
+            <div class="flex items-center justify-center">
+                <video src="assets/hugovideo.mp4" controls class=" bg-white shadow-2xl rounded-2xl w-80"></video>
+            </div>
+
+            <div class="text-center mx-10 my-10">
+                <h1
+                    class="font-luckiest font-medium text-4xl bg-gradient-to-r from-lime-950 to-lime-700 bg-clip-text text-transparent my-15">
+                    Hogar Unido Generando Oncoesperanza</h1>
+                <p class="px-6 py-5 rounded-xl mb-10 mx-10 border-x-4 border-emerald-600">Nace como un
+                    proyecto social comprometido con la <span class="text-emerald-800 font-semibold">concientización,
+                        la prevención y la detección</span> temprana del cáncer.</p>
+                <p class=" px-10 py-5 rounded-xl mb-10 border-x-4 border-emerald-600">Somos una comunidad
+                    conformada por <span class="text-emerald-800 font-semibold">jóvenes de 16 países en
+                        Latinoamérica</span>, que buscan generar un
+                    impacto real a través del amor, la empatía y la acción social.
+                </p>
+
+                <!-- ods -->
+                <div class="grid grid-cols-2 lg:grid-cols-3 gap-6 mt-15">
+                    <div
+                        class="border-2 border-lime-50 rounded-xl py-2 bg-gradient-to-tr from-emerald-600 to-emerald-700 transition-all duration-300 hover:scale-105">
+                        <h1 class="text-2xl font-bold text-yellow-300">ODS 3</h1>
+                        <p class="text-lime-100">Salud y Bienestar</p>
+                    </div>
+                    <div
+                        class="border-2 border-lime-50 rounded-xl py-2 bg-gradient-to-tr from-emerald-600 to-emerald-700 transition-all duration-300 hover:scale-105">
+                        <h1 class="text-2xl font-bold text-yellow-300">ODS 4</h1>
+                        <p class="text-lime-100">Educación de calidad</p>
+                    </div>
+                    <div
+                        class="border-2 border-lime-50 rounded-xl py-2 bg-gradient-to-tr from-emerald-600 to-emerald-700 transition-all duration-300 hover:scale-105">
+                        <h1 class="text-2xl font-bold text-yellow-300">ODS 17</h1>
+                        <p class="text-lime-100">Alianzas para los objetivos</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="h-16 bg-gradient-to-b from-emerald-50 to-amber-50 relative overflow-hidden">
+            <!-- Partículas flotantes -->
+            <div class="absolute inset-0 flex justify-center items-center space-x-12 opacity-40">
+                <div class="w-2 h-2 bg-yellow-400 rounded-full float-element"></div>
+                <div class="w-3 h-3 bg-orange-400 rounded-full float-element" style="animation-delay: 1s;"></div>
+                <div class="w-2 h-2 bg-red-400 rounded-full float-element" style="animation-delay: 2s;"></div>
+            </div>
+        </div>
+
+
+        <!-- section 4 carrusel -->
+        <section
+            class="flex flex-col items-center justify-center bg-gradient-to-br from-amber-50 via-yellow-50 to-orange-50 min-h-screen py-20">
+            <h1 class="font-luckiest font-medium text-4xl mt-5 mb-15 text-yellow-900">¡Explora lo que hacemos en HUGO!
+            </h1>
+            <div id="controls-carousel" class="relative w-3/4 lg:w-2/3 mx-auto mb-20  shadow-2xl"
+                data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-80 overflow-hidden md:h-100 rounded-2xl ">
+                    <!-- Item 1 -->
+                    <div class="grid grid-col-1 lg:grid-cols-2 duration-700 ease-in-out" data-carousel-item>
+                        <div class="">
+                            <img src="assets/caru-img1.png" class="w-full h-full object-cover" alt="...">
+                        </div>
+
+                        <div class="p-12 justify-center bg-orange-600 text-white">
+                            <h1 class="text-3xl mb-8 font-semibold">Educamos para crear conciencia</h1>
+                            <p class="text-lg">Realizamos talleres educativos en escuelas sobre la detección temprana
+                                del cáncer y cuidados generales</p>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="grid grid-col-1 lg:grid-cols-2 duration-700 ease-in-out" data-carousel-item="active">
+                        <div class="">
+                            <img src="assets/caru-img2.png" class="h-full object-cover" alt="...">
+                        </div>
+
+                        <div class="p-12 justify-center bg-yellow-500 text-white">
+                            <h1 class="text-3xl mb-8 font-semibold">Educamos para crear conciencia</h1>
+                            <p class="text-lg">Realizamos talleres como “Laboratorio de Hábitos Saludables”, donde de
+                                una manera muy cercana y amena se habló sobre la importancia de cuidar nuestros hábitos
+                                desde pequeños para prevenir enfermedades, entre ellas el cáncer</p>
+                        </div>
+
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="grid grid-col-1 lg:grid-cols-2  duration-700 ease-in-out" data-carousel-item>
+                        <div class="">
+                            <img src="assets/carru-ciencia.png" class="h-full w-full object-cover" alt="...">
+                        </div>
+
+                        <div class="p-12 justify-center bg-indigo-300 text-white">
+                            <h1 class="text-3xl mb-8 font-bold "><span class="text-orange-700">HUGO</span> <span
+                                    class="text-sky-900">Con</span><span class="text-yellow-600">Ciencia</span></h1>
+                            <p class="text-lg text-indigo-950">HUGO ConCiencia llega a nuestra comunidad para
+                                informarte, inspirarte y acompañarte cada semana, a través de nuestras redes. Una
+                                sección pensada para educar, prevenir y generar conciencia sobre el cáncer, el
+                                autocuidado y los avances científicos que salvan vidas.</p>
+                        </div>
+
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="grid grid-col-1 lg:grid-cols-2 duration-700 ease-in-out" data-carousel-item>
+                        <div class="">
+                            <img src="assets/carru-apoyoemo.jpg" class="w-full h-full object-cover" alt="...">
+                        </div>
+
+                        <div class="bg-red-400 py-5 px-10 justify-center text-white">
+                            <h1 class="text-3xl mb-5 font-bold">Servicio de apoyo psicológico</h1>
+                            <p class="text-lg pb-10">Creemos en el poder del acompañamiento emocional como parte
+                                fundamental en el proceso de lucha contra el cáncer. Nuestra misión es acompañar a
+                                quienes enfrentan el cáncer y a sus familias, brindando no solo información y
+                                prevención, sino también contención emocional.</p>
+                            <a class="px-8 py-4 text-xs font-bold text-white transition-all duration-300 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl hover:from-orange-600 hover:to-red-600 transform hover:scale-105 hover:shadow-xl"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSer1qnO_bEJP_1UYOeZYFNzVldsikHhEqGlshCc79FyltMiQw/viewform">Más
+                                información</a>
+                        </div>
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="grid grid-col-1 lg:grid-cols-2  duration-700 ease-in-out" data-carousel-item>
+                        <div class="">
+                            <img src="assets/carru-visitas.jpg" class="h-full w-full object-cover" alt="...">
+                        </div>
+
+                        <div class=" text-white p-12 justify-center bg-orange-400">
+                            <h1 class="text-3xl mb-8 font-bold">Visitas a hospitales</h1>
+                            <p class="text-lg">Nuestros voluntarios coordinan visitas para brindar apoyo emocional,
+                                repartir alimentos, hacer compañía y mostrar que nadie está solo en su proceso.</p>
+                        </div>
+
+                    </div>
+                    <!-- Item 6 -->
+                    <div class="grid grid-col-1 lg:grid-cols-2  duration-700 ease-in-out" data-carousel-item>
+                        <div class="">
+                            <img src="assets/caru-img3.png" class="h-full w-full object-cover" alt="...">
+                        </div>
+
+                        <div class=" text-white p-12 justify-center bg-green-400">
+                            <h1 class="text-3xl mb-8 font-bold">Recolectas de tapitas</h1>
+                            <p class="text-lg">Recibimos tapitas para apoyar a niñas y niños con cáncer, y también
+                                botellas de PET que serán destinadas al proyecto Cosechando Esperanza, donde se venden
+                                para generar recursos que ayudan a comedores comunitarios y personas en situación de
+                                vulnerabilidad</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- Slider controls -->
+                <button type="button"
+                    class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-prev>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white dark:bg-white group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 1 1 5l4 4" />
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button"
+                    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-next>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white dark:bg-white group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+            <a href="/nuestras-acciones"
+                class="px-8 py-4 text-lg font-bold text-white transition-all duration-300 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl hover:from-orange-600 hover:to-red-600 transform hover:scale-105 hover:shadow-xl">Conocer
+                todas las acciones -> </a>
+        </section>
+        <!-- section divisor -->
+        <div class="flex">
+            <div class="w-60 h-20 bg-yellow-200 rounded-b-full"></div>
+            <div class="w-60 h-20 bg-orange-200 rounded-b-full"></div>
+            <div class="w-60 h-20 bg-green-200 rounded-b-full"></div>
+            <div class="w-60 h-20 bg-red-100 rounded-b-full"></div>
+            <div class="w-60 h-20 bg-blue-100 rounded-b-full"></div>
+            <div class="w-60 h-20 bg-fuchsia-300 rounded-b-full"></div>
+        </div>
+
+        <!-- section 5-->
+        <section class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="px-25 py-30 flex flex-col items-center justify-center">
+                <h1 class="text-2xl font-bold mb-10 text-orange-800">Lo último en HUGO</h1>
+                <blockquote class="instagram-media"
+                    data-instgrm-permalink="https://www.instagram.com/p/DM3QB5Cv0G_/?utm_source=ig_embed&amp;utm_campaign=loading"
+                    data-instgrm-version="14"
+                    style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                    <div style="padding:16px;"> <a
+                            href="https://www.instagram.com/p/DM3QB5Cv0G_/?utm_source=ig_embed&amp;utm_campaign=loading"
+                            style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+                            target="_blank">
+                            <div style=" display: flex; flex-direction: row; align-items: center;">
+                                <div
+                                    style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+                                </div>
+                                <div
+                                    style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                    <div
+                                        style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+                                    </div>
+                                    <div
+                                        style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 19% 0;"></div>
+                            <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px"
+                                    height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                                    xmlns:xlink="https://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                            <g>
+                                                <path
+                                                    d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg></div>
+                            <div style="padding-top: 8px;">
+                                <div
+                                    style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+                                    Ver esta publicación en Instagram</div>
+                            </div>
+                            <div style="padding: 12.5% 0;"></div>
+                            <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                                <div>
+                                    <div
+                                        style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+                                    </div>
+                                    <div
+                                        style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+                                    </div>
+                                    <div
+                                        style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+                                    </div>
+                                </div>
+                                <div style="margin-left: 8px;">
+                                    <div
+                                        style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+                                    </div>
+                                    <div
+                                        style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+                                    </div>
+                                </div>
+                                <div style="margin-left: auto;">
+                                    <div
+                                        style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+                                    </div>
+                                    <div
+                                        style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+                                    </div>
+                                    <div
+                                        style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                                <div
+                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
+                                </div>
+                                <div
+                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+                                </div>
+                            </div>
+                        </a>
+                        <p
+                            style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                            <a href="https://www.instagram.com/p/DM3QB5Cv0G_/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                target="_blank">Una publicación compartida por HUGO (@ofhugomx)</a>
+                        </p>
+                    </div>
+                </blockquote>
+                <script async src="//www.instagram.com/embed.js"></script>
+            </div>
+            <div class="px-25 py-30 flex flex-col items-center justify-center">
+                <h1 class="text-2xl font-bold  mb-10 text-yellow-500">Campañas pasadas</h1>
+                <blockquote class="instagram-media"
+                    data-instgrm-permalink="https://www.instagram.com/p/DLszouXPWOl/?utm_source=ig_embed&amp;utm_campaign=loading"
+                    data-instgrm-version="14"
+                    style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                    <div style="padding:16px;"> <a
+                            href="https://www.instagram.com/p/DLszouXPWOl/?utm_source=ig_embed&amp;utm_campaign=loading"
+                            style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+                            target="_blank">
+                            <div style=" display: flex; flex-direction: row; align-items: center;">
+                                <div
+                                    style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+                                </div>
+                                <div
+                                    style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                    <div
+                                        style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+                                    </div>
+                                    <div
+                                        style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 19% 0;"></div>
+                            <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px"
+                                    height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                                    xmlns:xlink="https://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                            <g>
+                                                <path
+                                                    d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg></div>
+                            <div style="padding-top: 8px;">
+                                <div
+                                    style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+                                    Ver esta publicación en Instagram</div>
+                            </div>
+                            <div style="padding: 12.5% 0;"></div>
+                            <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                                <div>
+                                    <div
+                                        style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+                                    </div>
+                                    <div
+                                        style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+                                    </div>
+                                    <div
+                                        style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+                                    </div>
+                                </div>
+                                <div style="margin-left: 8px;">
+                                    <div
+                                        style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+                                    </div>
+                                    <div
+                                        style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+                                    </div>
+                                </div>
+                                <div style="margin-left: auto;">
+                                    <div
+                                        style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+                                    </div>
+                                    <div
+                                        style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+                                    </div>
+                                    <div
+                                        style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                                <div
+                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
+                                </div>
+                                <div
+                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+                                </div>
+                            </div>
+                        </a>
+                        <p
+                            style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                            <a href="https://www.instagram.com/p/DLszouXPWOl/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                target="_blank">Una publicación compartida por HUGO (@ofhugomx)</a></p>
+                    </div>
+                </blockquote>
+                <script async src="//www.instagram.com/embed.js"></script>
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg-amber-950 text-white">
+        <div class="max-w-6xl mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Sección de Contacto -->
+                <div>
+                    <h3 class="font-bold text-xl mb-6 text-amber-200">Contacto</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-3">
+                            <span class="text-2xl">📱</span>
+                            <div>
+                                <p class="font-medium">WhatsApp</p>
+                                <a href="https://wa.me/525643412263"
+                                    class="text-amber-200 hover:text-amber-100 transition-colors">
+                                    +52 5643 412263
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="text-2xl">📧</span>
+                            <div>
+                                <p class="font-medium">Email</p>
+                                <a href="mailto:onghugoff@gmail.com"
+                                    class="text-amber-200 hover:text-amber-100 transition-colors">
+                                    onghugoff@gmail.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sección de Redes Sociales -->
+                <div>
+                    <h3 class="font-bold text-xl mb-6 text-amber-200">Síguenos</h3>
+                    <div class="space-y-4">
+                        <a href="https://www.instagram.com/ofhugomx/"
+                            class="flex items-center space-x-3 group hover:bg-amber-900 p-3 rounded-lg transition-all duration-300">
+                            <div
+                                class="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
+                                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="font-medium group-hover:text-amber-200 transition-colors">Instagram</p>
+                                <p class="text-sm text-gray-300">@ofhugomx</p>
+                            </div>
+                        </a>
+
+                        <a href="https://www.tiktok.com/@ofhugomx?_t=ZM-8tmgbmSoYje&_r=1"
+                            class="flex items-center space-x-3 group hover:bg-amber-900 p-3 rounded-lg transition-all duration-300">
+                            <div
+                                class="w-10 h-10 bg-gradient-to-br from-pink-500 to-cyan-500 rounded-lg flex items-center justify-center">
+                                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-.88-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="font-medium group-hover:text-amber-200 transition-colors">TikTok</p>
+                                <p class="text-sm text-gray-300">@ofhugomx</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Sección adicional - Información de la empresa -->
+                <div class="md:col-span-2 lg:col-span-1">
+                    <h3 class="font-bold text-xl mb-6 text-amber-200">HUGO™</h3>
+                    <p class="text-gray-300 mb-4 leading-relaxed">
+                        Conectamos contigo a través de nuestras redes sociales y canales de comunicación.
+                    </p>
+                    <div class="flex space-x-4">
+                        <div class="w-3 h-3 bg-amber-400 rounded-full animate-pulse"></div>
+                        <div class="w-3 h-3 bg-amber-500 rounded-full animate-pulse" style="animation-delay: 0.2s">
+                        </div>
+                        <div class="w-3 h-3 bg-amber-600 rounded-full animate-pulse" style="animation-delay: 0.4s">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Línea divisoria -->
+            <div class="border-t border-amber-800 my-8"></div>
+
+            <!-- Copyright y links adicionales -->
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                <p class="text-sm text-gray-300"> Desarrollado por <a href="www.linkedin.com/in/stella-quintana/">Stella
+                        Quintana</a> | © 2025 HUGO™. Todos los derechos
+                    reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+
+</html>
+            
+            
