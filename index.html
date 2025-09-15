@@ -14,6 +14,12 @@
             font-family: 'Luckiest Guy', cursive;
         }
 
+        .luckiest-guy-regular {
+            font-family: "Mulish", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+        }
+
         @keyframes scrollRight {
             0% {
                 transform: translateX(-100%);
@@ -30,8 +36,8 @@
     </style>
 </head>
 
-<body>
-    <header class="bg-orange-50 font-sans text-orange-900 ">
+<body class="luckiest-guy-regular">
+    <header class="bg-orange-50 font-sans text-orange-900 fixed top-0 left-0 w-full z-50 ">
         <div class="flex items-center justify-between">
             <div class="flex items-center">
                 <img src="assets/logo.webp" alt="hugo logo" class="h-15 rounded-full p-2 ml-11 mr-4">
@@ -56,10 +62,10 @@
         <!-- section 1 -->
         <section class="h-screen bg-gradient-to-tl from-yellow-100 via-yellow-200 to-white">
             <div class="container mx-auto px-4">
-                <div class="flex flex-col md:flex-row items-center justify-between grap-8">
+                <div class="flex flex-col md:flex-row items-center justify-between grap-8 ">
                     <div class="md:w-1/2 text-orange-950 text-center md:text-left ml-16">
                         <h1
-                            class="font-luckiest font-medium text-2xl lg:text-4xl mb-14 mt-12 bg-gradient-to-r from-orange-900 to-orange-700 bg-clip-text text-transparent">
+                            class="font-luckiest  text-2xl lg:text-4xl mb-14 mt-40 bg-gradient-to-r from-orange-900 to-orange-700 bg-clip-text text-transparent">
                             Juntos podemos prevenir el cáncer 🎗️</h1>
                         <p class="text-xl mb-7 ">Somos una organización sin ánimo de lucro comprometida con la
                             transformación social y la prevención del cáncer a través de la educación, el apoyo
@@ -79,9 +85,9 @@
                             </div>
                         </div>
 
-                        <img src="assets/svg/flecha3.svg" alt="d" class="size-16 animate-bounce mt-15">
+                        <img src="assets/svg/flecha3.svg" alt="d" class="size-16 animate-bounce mt-15 hidden lg:block">
                     </div>
-                    <div class="w-4/12 mr-12 mb-12 mt-12">
+                    <div class="w-4/12 mr-12 mb-12 mt-20">
                         <img src="assets/muñe.webp" alt="">
                     </div>
                 </div>
@@ -105,7 +111,7 @@
                 <div
                     class="bg-gradient-to-tl from-yellow-50 to-yellow-100 px-5 py-5 border border-gray-200 rounded-xl shadow-md hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 ease-linear">
                     <a href="">
-                        <h1 class="m-4 font-medium text-yellow-900"> 🌞 Conócenos</h1>
+                        <h1 class="m-4 font-bold text-yellow-900"> 🌞 Conócenos</h1>
                         <p class="mb-4">Conoce nuestra historia, el equipo increíble de voluntarios y lo que hacemos</p>
                     </a>
                 </div>
@@ -113,7 +119,7 @@
                 <div
                     class="bg-gradient-to-tl from-green-50 to-green-100  px-5 py-5 border border-gray-200 rounded-xl shadow-md hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 ease-linear ">
                     <a href="">
-                        <h1 class="m-4 font-medium text-lime-900"> 📗 Testimonios</h1>
+                        <h1 class="m-4 font-bold text-lime-900"> 📗 Testimonios</h1>
                         <p class="mb-4">Conoce nuestra historia, el equipo increíble de voluntarios y lo que hacemos</p>
                     </a>
                 </div>
@@ -121,7 +127,7 @@
                 <div
                     class=" bg-gradient-to-tl from-indigo-50 to-indigo-100  px-5 py-5 border border-gray-200 rounded-xl shadow-md hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 ease-linear ">
                     <a href="">
-                        <h1 class="m-4 font-medium text-indigo-900"> 🫂 Únete</h1>
+                        <h1 class="m-4 text-indigo-900 font-bold"> 🫂 Únete</h1>
                         <p class="mb-4">Sé parte del cambio con nuestra comunidad de voluntarios o participando en
                             iniciativas y ayuda a trasformar vida</p>
                     </a>
@@ -129,7 +135,7 @@
 
                 <div
                     class=" bg-gradient-to-tl from-orange-50 to-orange-100 py-5 border border-gray-200 rounded-xl shadow-md hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 ease-linear flex flex-col items-center">
-                    <h1 class="m-4 font-medium text-orange-900"> 🔗 Síguenos</h1>
+                    <h1 class="m-4 font-bold text-orange-900"> 🔗 Síguenos</h1>
                     <div
                         class="grid grid-cols-2 grid-rows-2 place-items-center size-26 border border-gray-800 rounded-xl px-1 py-1">
                         <a href="https://www.instagram.com/ofhugomx/" class="m-2"><img src="assets/svg/instagram.svg"
@@ -162,7 +168,7 @@
 
             <div class="text-center mx-10 my-10">
                 <h1
-                    class="font-luckiest font-medium text-4xl bg-gradient-to-r from-lime-950 to-lime-700 bg-clip-text text-transparent my-15">
+                    class="font-luckiest font-medium text-4xl bg-gradient-to-r from-emerald-950 to-emerald-700 bg-clip-text text-transparent my-15">
                     Hogar Unido Generando Oncoesperanza</h1>
                 <p class="px-6 py-5 rounded-xl mb-10 mx-10 border-x-4 border-emerald-600">Nace como un
                     proyecto social comprometido con la <span class="text-emerald-800 font-semibold">concientización,
@@ -263,8 +269,8 @@
                         </div>
 
                         <div class="bg-red-400 py-5 px-10 justify-center text-white">
-                            <h1 class="text-3xl mb-5 font-bold">Servicio de apoyo psicológico</h1>
-                            <p class="text-lg pb-10">Creemos en el poder del acompañamiento emocional como parte
+                            <h1 class="text-3xl mb-5 ">Servicio de apoyo psicológico</h1>
+                            <p class="text-base pb-10">Creemos en el poder del acompañamiento emocional como parte
                                 fundamental en el proceso de lucha contra el cáncer. Nuestra misión es acompañar a
                                 quienes enfrentan el cáncer y a sus familias, brindando no solo información y
                                 prevención, sino también contención emocional.</p>
